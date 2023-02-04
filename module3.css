@@ -1,0 +1,74 @@
+.navbarTitle {
+    font-size: 50px;
+}
+
+.container {
+    height: 100px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.navbar-toggle {
+    border: 1px solid #000;
+    margin-top: -5px;
+    clear: both;
+}
+
+.hh a:hover {
+    font-size: 30px;
+}
+
+/************ END OF HEAD BAR ************/
+
+.text {
+    padding: 10px;
+}
+
+.titleText {
+    margin-bottom: 20px;
+}
+
+.text-center {
+    font-weight: bold;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.borderMenu {
+    border: 1px solid black;
+    margin-right: px;
+    background-color: lightgray;
+    overflow: auto;
+}
+
+#main-content.container {
+    width: 100%;
+}
+/********* PHONE ******************/
+@media (max-width: 997px) {
+    .row {
+        display: block;
+    }
+    .borderMenu {
+        margin-bottom: 30px;
+        margin-left: 15px;
+    }
+    .navbarTitle {
+        font-size: 30px;
+    }
+    .navbar-toggle {
+        margin-top: -20px;
+    }
+}
